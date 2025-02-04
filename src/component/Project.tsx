@@ -61,7 +61,7 @@ const Projects = () => {
         "MongoDB",
         "JWT Authentication",
       ],
-      url: "#",
+      url: "https://blog-stream-dusky.vercel.app/",
     },
   ];
 
