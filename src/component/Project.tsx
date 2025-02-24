@@ -39,15 +39,14 @@ const Projects = () => {
     },
 
     {
-      title: "MeetHub",
+      title: "IT-Firm App",
       description:
-        "A virtual conferencing web application enabling real-time video calls, screen sharing, and meeting rooms.",
+        "A modern IT solutions platform with a Next.js frontend and backend, seamlessly integrating Google Sheets for data management and automation.",
       image:
-        "https://plus.unsplash.com/premium_photo-1661477604761-0067a01ab430?w=800&auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8dmlkZW9jYWxsfGVufDB8fDB8fHww",
-      tech: ["React", "WebRTC", "Node.js", "Express.js", "Socket.io"],
-      url: "#",
+        "https://blog.ipleaders.in/wp-content/uploads/2018/12/law-firm-news.jpg",
+      tech: ["Next.js", "Google Sheets API", "Tailwind CSS", "Framer Motion"],
+      url: "https://it-firm-nu.vercel.app/",
     },
-
     {
       title: "BlogStream",
       description:
@@ -55,10 +54,10 @@ const Projects = () => {
       image:
         "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YmxvZ3xlbnwwfHwwfHx8MA%3D%3D",
       tech: [
-        "Next.js",
+        "React",
         "Prisma",
         "Tailwind CSS",
-        "MongoDB",
+        "Cloudflare workers",
         "JWT Authentication",
       ],
       url: "https://blog-stream-dusky.vercel.app/",
