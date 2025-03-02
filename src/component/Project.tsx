@@ -29,15 +29,14 @@ const Projects = () => {
 
   const projects = [
     {
-      title: "Connectify",
+      title: "AI Text Summarizer",
       description:
-        "A real-time social media platform where users can connect, share posts, and interact with others.",
+        "An AI-powered text summarization tool that allows users to input text and generate concise summaries using Groq's Mixtral model. The application features a clean UI, adjustable summary length, and real-time processing.",
       image:
-        "https://images.unsplash.com/photo-1621112904887-419379ce6824?w=800&auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGZyaWVuZHN8ZW58MHx8MHx8fDA%3D",
-      tech: ["React", "Node.js", "MongoDB", "Socket.io", "JWT Authentication"],
-      url: "#",
+        "https://incubator.ucf.edu/wp-content/uploads/2023/07/artificial-intelligence-new-technology-science-futuristic-abstract-human-brain-ai-technology-cpu-central-processor-unit-chipset-big-data-machine-learning-cyber-mind-domination-generative-ai-scaled-1-1500x1000.jpg",
+      tech: ["Next.js", "TypeScript", "Tailwind CSS", "Groq API", "Vercel"],
+      url: "https://ai-based-text-summariser-expander.vercel.app/",
     },
-
     {
       title: "IT-Firm App",
       description:

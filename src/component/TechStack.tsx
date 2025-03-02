@@ -10,7 +10,7 @@ function TechStack() {
 
   useEffect(() => {
     const ctx = gsap.context(() => {
-      gsap.utils.toArray(".tech-card").forEach((card, index) => {
+      gsap.utils.toArray(".tech-card").forEach((card: any, index) => {
         gsap.from(card, {
           scrollTrigger: {
             trigger: card,
@@ -38,14 +38,14 @@ function TechStack() {
     { name: "TypeScript", color: "bg-blue-500" },
     { name: "Prisma", color: "bg-yellow-300" },
     { name: "Next.js", color: "bg-blue-600" },
-    { name: "Monorepo", color: "bg-blue-400" },
+    { name: "Turborepo", color: "bg-blue-400" },
     { name: "AWS", color: "bg-orange-600" },
     { name: "Docker", color: "bg-blue-600" },
-    { name: "Kubernetes", color: "bg-indigo-500" },
+    { name: "Web sockets", color: "bg-indigo-500" },
     { name: "Serverless", color: "bg-purple-500" },
     { name: "NextAuth", color: "bg-green-400" },
-    { name: "Prometheus", color: "bg-purple-400" },
-    { name: "Grafana", color: "bg-indigo-600" },
+    { name: "CI/CD", color: "bg-purple-400" },
+    { name: "Web3", color: "bg-indigo-600" },
     { name: "Tailwind CSS", color: "bg-teal-400" },
   ];
 

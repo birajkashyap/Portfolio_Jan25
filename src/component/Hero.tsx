@@ -84,13 +84,13 @@ function Hero({ children }: HeroProps) {
             Biraj Kashyap
           </span>
         </h1>
-        <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-2xl mx-auto">
+        <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-2xl mx-auto pt-4">
           Full Stack Developer dedicated to building innovative and seamless
           digital experiences using cutting-edge technologies.
         </p>
 
         {/* Social media icons */}
-        <div className="flex justify-center gap-6 mb-12">
+        <div className="flex justify-center gap-6 mb-12 pt-8">
           <a
             href="https://github.com/birajkashyap"
             className="text-gray-400 hover:text-white transition-colors"
@@ -113,11 +113,6 @@ function Hero({ children }: HeroProps) {
             <Mail size={24} />
           </a>
         </div>
-
-        {/* Call-to-action button */}
-        <button className="px-8 py-3 bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-full font-medium hover:shadow-lg hover:shadow-purple-500/25 transition-all duration-300">
-          Explore My Portfolio
-        </button>
       </div>
     </div>
   );
