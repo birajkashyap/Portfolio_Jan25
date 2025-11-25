@@ -29,37 +29,57 @@ const Projects = () => {
 
   const projects = [
     {
-      title: "AI Text Summarizer",
+      title: "Prompt-Driven Email Productivity Agent",
       description:
-        "An AI-powered text summarization tool that allows users to input text and generate concise summaries using Groq's Mixtral model. The application features a clean UI, adjustable summary length, and real-time processing.",
+        "An intelligent email automation system that processes inbox data, categorizes messages, extracts action items, and drafts replies using a prompt-driven AI workflow. Includes a 'Prompt Brain' for customizable AI behavior and a chat interface for real-time summarization, Q&A, and drafting.",
       image:
-        "https://incubator.ucf.edu/wp-content/uploads/2023/07/artificial-intelligence-new-technology-science-futuristic-abstract-human-brain-ai-technology-cpu-central-processor-unit-chipset-big-data-machine-learning-cyber-mind-domination-generative-ai-scaled-1-1500x1000.jpg",
-      tech: ["Next.js", "TypeScript", "Tailwind CSS", "Groq API", "Vercel"],
-      url: "https://ai-based-text-summariser-expander.vercel.app/",
-    },
-    {
-      title: "IT-Firm App",
-      description:
-        "A modern IT solutions platform with a Next.js frontend and backend, seamlessly integrating Google Sheets for data management and automation.",
-      image:
-        "https://blog.ipleaders.in/wp-content/uploads/2018/12/law-firm-news.jpg",
-      tech: ["Next.js", "Google Sheets API", "Tailwind CSS", "Framer Motion"],
-      url: "https://it-firm-nu.vercel.app/",
-    },
-    {
-      title: "BlogStream",
-      description:
-        "A full-featured blogging platform where users can create, edit, and publish blogs with rich text support.",
-      image:
-        "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YmxvZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://towardsdatascience.com/wp-content/uploads/2025/01/1s2dtl0h7aipYWHfKVC7cUA.jpg",
       tech: [
-        "React",
-        "Prisma",
+        "Next.js",
+        "FastAPI",
+        "Python",
+        "TypeScript",
         "Tailwind CSS",
-        "Cloudflare workers",
-        "JWT Authentication",
+        "Vercel",
+        "Render",
       ],
-      url: "https://blog-stream-dusky.vercel.app/",
+      url: "https://ai-mail-agent.vercel.app",
+      backend: "https://ai-mail-agent-gby4.onrender.com",
+    },
+    {
+      title: "Walletron – Unified Wallet Infrastructure",
+      description:
+        "An AI-powered multi-chain wallet engine providing a unified API for Ethereum and Solana operations. Features HD wallet generation, natural language wallet commands, real-time dashboard analytics, per-user wallet isolation, and a developer-first UI with full authentication and API key management.",
+      image:
+        "https://res.cloudinary.com/rivalry/image/fetch/q_50/https%3A%2F%2Fimages.prismic.io%2Frivalryglhf%2FZyyJKq8jQArT0bp9_DALL%25C2%25B7E2024-11-0414.27.54-Adigitalwalleticoninafuturisticstyle%252Cfloatinginablueandpurplegradientbackgroundwithglowingcryptoiconsaroundit.Thewalletissimp.jpg%3Fauto%3Dformat%2Ccompress",
+      tech: [
+        "Next.js 15",
+        "TypeScript",
+        "Tailwind CSS",
+        "Ethers.js",
+        "Solana Web3.js",
+        "Prisma",
+        "PostgreSQL",
+        "NextAuth.js",
+        "Vercel",
+      ],
+      url: "https://walletron-v1.vercel.app/", // Replace if you want your actual deployed link
+    },
+    {
+      title: "Nature Navigator",
+      description:
+        "A rental-service booking platform designed for real-world operational use. Built with a modern Next.js architecture and powered by PostgreSQL with Prisma ORM. Includes real-time availability, secure reservation flows, integrated Stripe payments, user accounts, and an admin panel for managing services, pricing, and bookings.",
+      image:
+        "https://www.shutterstock.com/image-photo/black-taxi-mercedes-e-class-600nw-2580503875.jpg",
+      tech: [
+        "Next.js",
+        "TypeScript",
+        "Prisma",
+        "PostgreSQL",
+        "Stripe",
+        "Tailwind CSS",
+      ],
+      url: "https://nature-navigator.vercel.app", // Replace with your actual link if different
     },
   ];
 
